@@ -9,10 +9,10 @@ public class Main {
             System.out.println("");
             while (!isExitMenu) {
                 System.out.print("""
-                        1. Reboot
-                        2. Flash GSI
-                        3. Flash Boot
-                        Q. Exit
+                        1. Перезагрузка
+                        2. Прошивка GSI
+                        3. Прошивка Boot
+                        Q. Выход
                         """);
                 System.out.print(": ");
                 String selected = input.nextLine();
